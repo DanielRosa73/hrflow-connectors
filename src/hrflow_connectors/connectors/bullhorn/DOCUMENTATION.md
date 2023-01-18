@@ -60,6 +60,9 @@ Job list on Bullhorn platform.
 ![DOC_bullhorn2](https://user-images.githubusercontent.com/46778695/213147446-848b9ab1-17e6-4dde-8207-229330104e9b.png)
 Candidate list on Bullhon platform.
 
+## Data flow:
+
+![BreezyHR(4)](https://user-images.githubusercontent.com/46778695/213159852-2d459dc6-cbb0-44e3-aa6a-a81a553b0aa2.jpg)
 
 ## Special thanks:
 
