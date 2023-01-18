@@ -3,11 +3,13 @@
 
 The Bullhorn-Hrflow connector allows you to synchronize data between the Bullhorn applicant tracking system (ATS) and the Hrflow platform.
 
-  # About Bullhorn:
+
+## About Bullhorn:
   
   **Bullhorn** is a cloud computing company headquartered in Boston, Massachusetts. The company provides customer relationship management (CRM), applicant tracking system (ATS) and operations software for the staffing industry. As of 2019, the company reported more than 11,000 customers in more than 150 countries. Besides its Boston headquarters, the company has operations in St. Louis, London, Brighton, Sydney and Rotterdam.
 
-# Connector Features
+
+## Connector Features
 
 **Push Profiles**
 
@@ -35,8 +37,30 @@ This action consists of two separate actions:
 2.  The **read_profiles_parsing** action pulls a candidate's CV and uses Hrflow's parsing AI to enrich the previously pulled profile with information found on the CV.
 
 
-# Useful links:
+## Import the connector:
+
+```from hrflow_connectors.connectors.bullhorn import Bullhorn```
+
+
+## Useful links:
 
 📄Visit [Bullhorn]([https://www.bullhorn.com/]) to learn more.
 
-💻 [Connector code]([https://github.com/Sprenger07/hrflow-connectors/tree/feature/update-connector-workable/src/hrflow_connectors/connectors/workable](https://github.com/Sprenger07/hrflow-connectors/tree/feature/update-connector-workable/src/hrflow_connectors/connectors/workable)) on our Github.
+📄Check out Bullhorn API's [documentation!]([https://bullhorn.github.io/rest-api-docs/])
+
+💻 [Connector code]([https://github.com/Riminder/hrflow-connectors/tree/master/src/hrflow_connectors/connectors/bullhorn]) on our Github.
+
+
+## Screenshots
+
+![DOC_bullhorn1](https://user-images.githubusercontent.com/46778695/213147416-a4e473ca-093b-47d6-82a0-5bfd0f67a46f.png)
+Job list on Bullhorn platform.
+
+
+![DOC_bullhorn2](https://user-images.githubusercontent.com/46778695/213147446-848b9ab1-17e6-4dde-8207-229330104e9b.png)
+Candidate list on Bullhon platform.
+
+
+## Special thanks:
+
+Special thanks to Arne Looten of Bullhorn for his help in this project.
